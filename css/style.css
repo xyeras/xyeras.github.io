@@ -1,4 +1,105 @@
-* {
-    margin: 0;
-    padding: 0;
+/* FONT
+font-family: 'Lato', sans-serif;
+font-family: 'Tajawal', sans-serif;
+*/
+
+/* COLOR PALETTE
+https://coolors.co/10002b-240046-3c096c-5a189a-7b2cbf-9d4edd-c77dff-e0aaff
+*/
+
+/* CUSTOM VARS */
+:root {
+    --primary: #240046;
+    --secondary: #3c096c;
+    --special: #5a189a;
+    --primaryFontColor: #ffffff;
+    --primaryFont: 'Tajawal', sans-serif;
+    --secondaryFont: 'Lato', sans-serif;
+}
+
+body {
+    font-family: var(--primaryFont);
+    color: var(--primaryFontColor);
+}
+
+header {
+    background-color: var(--primary);
+}
+
+img.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+div.imageSlide_1 {
+    background-image: url(../img/pexels-miriam-espacio-110854.jpg);
+
+    height: 700px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+div.imageSlide_2 {
+    background-image: url(../img/pexels-felix-mittermeier-957061.jpg);
+
+    height: 700px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.imageSlide_3 {
+    background-image: url(../img/pexels-pixabay-355465.jpg);
+
+    height: 700px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    height: 600px;
+    background-color: var(--primary);
+}
+
+footer {
+    top: 600px;
+    height: 100px;
+    background-color: var(--primary);
+}
+
+/* MEDIA QUERIES */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
