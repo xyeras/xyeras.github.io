@@ -9,17 +9,29 @@ https://coolors.co/10002b-240046-3c096c-5a189a-7b2cbf-9d4edd-c77dff-e0aaff
 
 /* CUSTOM VARS */
 :root {
-    --primary: #240046;
-    --secondary: #3c096c;
-    --special: #5a189a;
+    --primary: #10002b;
+    --secondary: #240046;
+    --special: #3c096c;
     --primaryFontColor: #ffffff;
     --primaryFont: 'Tajawal', sans-serif;
     --secondaryFont: 'Lato', sans-serif;
 }
 
 body {
-    font-family: var(--primaryFont);
     color: var(--primaryFontColor);
+    font-family: var(--secondaryFont);;
+}
+
+h1 {
+    font-family: var(--primaryFont)
+}
+
+div.nav-pills {
+    font-size: 22px;
+}
+
+p {
+    font-size: 18px;
 }
 
 header {
@@ -67,8 +79,12 @@ div.imageSlide_3 {
 }
 
 section {
-    height: 600px;
-    background-color: var(--primary);
+    height: 700px;
+    background-color: var(--secondary);
+}
+
+li {
+    margin-bottom: 10px;
 }
 
 footer {
@@ -79,27 +95,27 @@ footer {
 
 /* MEDIA QUERIES */
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
 
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
 
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
 
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 
 }
