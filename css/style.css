@@ -22,8 +22,22 @@ body {
     font-family: var(--secondaryFont);;
 }
 
+
 h1 {
     font-family: var(--primaryFont)
+}
+
+.jumbotron {
+    opacity: 0.9;
+}
+
+.carousel .slide {
+    width: 300px;
+    height: 300px;
+}
+
+.shrink-image {
+    height: 300px;
 }
 
 div.nav-pills {
@@ -32,6 +46,10 @@ div.nav-pills {
 
 p {
     font-size: 18px;
+}
+
+li {
+    margin-bottom: 15px;
 }
 
 header {
@@ -83,8 +101,8 @@ section {
     background-color: var(--secondary);
 }
 
-li {
-    margin-bottom: 10px;
+span {
+    content: "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;";
 }
 
 footer {
