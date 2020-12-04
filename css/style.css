@@ -54,6 +54,7 @@ p {
 }
 
 li {
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
@@ -104,6 +105,10 @@ div.imageSlide_3 {
 section {
     height: 700px;
     background-color: var(--secondary);
+}
+
+section.resume-section {
+    height: 900px;
 }
 
 span {
