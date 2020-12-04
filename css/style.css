@@ -27,17 +27,22 @@ h1 {
     font-family: var(--primaryFont)
 }
 
+.greeting-card {
+    width: 18rem;
+    z-index: 1;
+}
+
+.fade-me {
+    opacity: 1;
+    transition: 3s;
+}
+
+.push-down {
+    margin-top: 200px;
+}
+
 .jumbotron {
     opacity: 0.9;
-}
-
-.carousel .slide {
-    width: 300px;
-    height: 300px;
-}
-
-.shrink-image {
-    height: 300px;
 }
 
 div.nav-pills {
