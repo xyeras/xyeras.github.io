@@ -137,6 +137,10 @@ footer {
         font-size: 14px;
     }
 
+    section.about-section {
+        height: 1500px;
+    }
+
     section.resume-section {
         height: 1500px;
     }
